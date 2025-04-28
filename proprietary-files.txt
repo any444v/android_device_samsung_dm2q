@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S9160ZHU6DYD9
+# All unpinned blobs are extracted from S916BXXU8DYD9
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -186,7 +186,7 @@ vendor/firmware/DM2_S6E3FAC_AMB655AY01.dat
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
-vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369f
+vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
