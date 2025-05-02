@@ -14,6 +14,13 @@ $(call inherit-product, device/samsung/dm2q/device.mk)
 # Inherit from the Lineage configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx flags 
+WITH_GMS := true
+TARGET_SUPPORTS_WALLEFFECT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
+
 PRODUCT_NAME := lineage_dm2q
 PRODUCT_DEVICE := dm2q
 PRODUCT_BRAND := samsung
