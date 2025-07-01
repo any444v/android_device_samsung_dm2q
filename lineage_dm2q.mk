@@ -27,7 +27,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/dm2qxxx/dm2q:15/AP3A.240905.015.A2/S916BXXS8DYF1:user/release-keys \
     DeviceProduct=dm2qxxx \
     SystemName=dm2qxxx \
-    RisingChipset="Qualcomm Snapdragon 8 Gen 2" \
+    RisingChipset="Snapdragon 8 Gen 2" \
     RisingMaintainer="3kz"
 
 RISING_MAINTAINER := 3kz
