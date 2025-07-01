@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/samsung/dm2q/device.mk)
 
-# Inherit from the AOSP configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from the Lineage configuration.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_dm2q
+PRODUCT_NAME := lineage_dm2q
 PRODUCT_DEVICE := dm2q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-S916B
@@ -26,4 +26,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="dm2qxxx-user 15 AP3A.240905.015.A2 S916BXXS8DYF1 release-keys" \
     BuildFingerprint=samsung/dm2qxxx/dm2q:15/AP3A.240905.015.A2/S916BXXS8DYF1:user/release-keys \
     DeviceProduct=dm2qxxx \
-    SystemName=dm2qxxx
+    SystemName=dm2qxxx \
+    RisingChipset="Qualcomm Snapdragon 8 Gen 2" \
+    RisingMaintainer="3kz"
+
+RISING_MAINTAINER := 3kz
+
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+    
